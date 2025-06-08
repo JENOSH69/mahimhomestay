@@ -55,22 +55,22 @@ window.addEventListener('scroll', () => {
 });
 const galleryData = [
   {
-    src: "../IMAGE/H-9.jpeg",
+    src: "IMAGE/H-9.jpeg",
     alt: "Cozy Wooden Cottage Room",
     text: "Cozy Wooden Cottage Room"
   },
   {
-    src: "../IMAGE/H-9.jpeg",
+    src: "IMAGE/H-9.jpeg",
     alt: "Organic Traditional Meal",
     text: "Organic Traditional Meal"
   },
   {
-    src: "../IMAGE/H-7.jpeg",
+    src: "IMAGE/H-7.jpeg",
     alt: "Peaceful Garden View",
     text: "Peaceful Garden View"
   },
   {
-    src: "../IMAGE/H-7.jpeg",
+    src: "IMAGE/H-7.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Traditional Firewood Kitchen"
   },
