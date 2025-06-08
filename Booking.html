@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahim Homestay | Serene Stay in Sikkim</title>
+
+  <!-- SEO Tags -->
+  <meta name="description" content="Enjoy a peaceful stay at Mahim Homestay in the heart of Darap village, Sikkim. Clean rooms, beautiful views, and warm hospitality.">
+  <meta name="keywords" content="Mahim Homestay, Sikkim Homestay, Darap Homestay, West Sikkim rooms, Homestay with view, Sikkim nature stay">
+  <meta name="author" content="Mahim Homestay">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Mahim Homestay">
+  <meta property="og:description" content="Book a memorable stay at Mahim Homestay, surrounded by scenic beauty and peaceful vibes.">
+  <meta property="og:image" content="img1.jpg">
+  <meta property="og:url" content="https://mahimhomestay.com">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#002147">
+
+  <link rel="stylesheet" href="../CSS/Booking.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <!-- Header -->
+<header>
+  <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+
+  <div class="header-logo">
+  <a href="#about-section"></a>
+    <img src="../IMAGE/L-1.png" alt="Mahim Homestay Logo" class="logo-img" />
+    </a>
+  </div>
+
+</header>
+
+
+  <!-- Sidebar Menu -->
+  <nav id="sidebar">
+          <div class="close-btn" onclick="closeSidebar()">&times;</div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">About Us</a></li>
+
+      <li><a href="#">Gallery</a></li>
+      <li><a href="rooms.html">Rooms</a></li>
+      <li><a href="Booking.html">Booking</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <div class="sidebar-welcome">
+  Welcome to<br><span>Mahim Homestay <br> Darap West Sikkim</span>
+</div>
+
+    </ul>
+    <div class="social-icons">
+  <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://wa.me/yourwhatsapplink" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</div>
+  </nav>
+
+
+
+  <!-- Image Slider -->
+  <section class="slider">
+    <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+    <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+    <div class="slides">
+      <img src="../IMAGE/H-7.jpeg" alt="View from Nahim Homestay">
+      <img src="../IMAGE/H-8.jpeg" alt="Room at Nahim Homestay">
+      <img src="../IMAGE/H-9.jpeg" alt="Garden of Nahim Homestay">
+      <img src="../IMAGE/H-10.jpeg" alt="Garden of Nahim Homestay">
+      <img src="../IMAGE/H-11.jpeg" alt="Garden of Nahim Homestay">
+      <img src="../IMAGE/H-12.jpeg" alt="Garden of Nahim Homestay">
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h1><span class="welcome-small">Welcome to</span><br>Mahim Homestay </h1> <br> <h2><span> Darap West Sikkim</span></h2>
+  </section>
+  <div class="booking-container">
+    <h1>Book Your Stay</h1>
+    <form id="bookingForm">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="checkin">Check-in Date</label>
+      <input type="date" id="checkin" name="checkin" required />
+
+      <label for="checkout">Check-out Date</label>
+      <input type="date" id="checkout" name="checkout" required />
+
+      <label for="roomtype">Room Type</label>
+      <select id="roomtype" name="roomtype" required>
+        <option value="">--Select Room--</option>
+        <option value="Wooden">Wooden</option>
+        <option value="Cottage">Cottage</option>
+      </select>
+
+      <label for="adults">Adults</label>
+      <input type="number" id="adults" name="adults" min="1" required />
+
+      <label for="children">Children</label>
+      <input type="number" id="children" name="children" min="0" />
+
+      <label for="message">Message (Optional)</label>
+      <textarea id="message" name="message" placeholder="Any special requests?"></textarea>
+
+      <button type="submit" id="bookWhatsapp">Book via WhatsApp</button>
+    </form>
+  </div>
+  <!-- Footer Section -->
+<footer id="contact" class="footer-section">
+  <div class="footer-container">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Mahim Homestay, Darap, West Sikkim - 737113</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Email:</strong> contact@nahimhomestay.com</p>
+    <p><strong>Follow us:</strong></p>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+    <p class="footer-copy">© 2025 Mahim Homestay. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  <script src="../JS/booking.js"></script>
+  
+  </body>
+  </html>
